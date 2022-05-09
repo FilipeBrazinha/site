@@ -27,7 +27,7 @@
     .nav-menu{
       position: fixed;
       right: -100%;
-      top: 18%;
+      top: 25%;
       gap: 0;
       flex-direction: column;
       background-color: #262626;
