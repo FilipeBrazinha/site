@@ -36,6 +36,7 @@
       transition: 0.5s;
       opacity: 1;
       border-bottom: 1px #555 solid;
+      z-index: 1;
 
     }
     .nav-item{
