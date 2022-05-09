@@ -27,14 +27,14 @@
     .nav-menu{
       position: fixed;
       right: -100%;
-      top: 11.5%;
+      top: 18%;
       gap: 0;
       flex-direction: column;
       background-color: #262626;
       width: 100%;
       text-align: center;
       transition: 0.5s;
-      opacity: 0.8;
+      opacity: 1;
       border-bottom: 1px #555 solid;
 
     }
