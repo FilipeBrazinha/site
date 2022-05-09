@@ -1,0 +1,330 @@
+:root {
+  --primary-color: #425b84;
+  --secondary-color: #5b7bb4;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Dosis', sans-serif;
+  background: url("../img/showcase1.jpg") no-repeat fixed center/cover;
+  color: white;
+  overflow-x: hidden;
+  padding-bottom: 50px; }
+
+  #logo {
+    width: 180px;
+    height: auto;
+    z-index: -1;
+    margin-top: 20px; }
+
+p.lead,
+h1{
+    text-align: center; 
+    font-size: 1.3rem;
+    margin-bottom: 1rem; }
+
+
+  .container {
+    max-width: 1280px;
+    padding: 0 1.5rem;
+    margin: auto;
+    overflow: hidden;
+    width: 70%; }
+  
+    #main-nav{
+      min-height: 70px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 24px;
+    }
+  
+    .nav-menu{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 60px;
+    }
+  
+    .hamburger{
+      display: none;
+      cursor: pointer;
+    }
+    
+    .bar{
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      -webkit-transition: all 0.3s easy-in-out;
+      transition: all 0.3s easy-in-out;
+      background-color: #fff;
+    }
+    a {
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+      border-bottom: 3px transparent solid;
+      padding-bottom: 0.05rem;
+      transition: border-color 0.5s;
+      text-shadow: 2px 2px black; }
+      a:hover {
+        border-color: #ccc; }
+      a.current {
+        border-color: #ffbc00; }
+  
+        li{
+          list-style: none;
+        }
+  
+  
+  
+ 
+  
+  h6{
+    display: flex;
+    align-items: center;
+    color: #ffbc00;
+  }
+  
+ 
+  
+ 
+  
+  
+  a.icones{
+    border-bottom: none;
+    transition: none;
+    color: #fff;
+  
+  }
+
+ 
+  
+ /*MAIN NAV*/
+ 
+  
+
+
+h1 {
+  font-size: 2.3rem; }
+
+#timeline ul { 
+  padding: 10px 0; }
+
+.edu-on{
+  color: #ffbc00;
+  font-size: 1.4rem;
+}
+.cabecalho{
+  color: #ffbc00;
+}
+
+/*CREATE LINE*/
+#timeline ul li {
+  list-style: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #fff; }
+
+/*BOXES*/
+#timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 1rem;
+  transition: all 0.5s ease-in-out;
+  visibility: hidden;
+  opacity: 0; }
+
+/*RIGHT SIDE*/
+#timeline ul li:nth-child(odd) div {
+  left: 40px;
+  background: #333;
+  
+  box-shadow: 1px 1px 4px #ffbc00;
+  transform: translate(200px, 0); }
+
+/*Left SIDE*/
+#timeline ul li:nth-child(even) div {
+  left: -434px;
+  background: #333;
+  box-shadow: -1px 1px 4px #ffbc00;
+  transform: translate(-200px, 0); }
+
+/* DOTS*/
+#timeline ul li:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 25px;
+  height: 25px;
+  background: inherit;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  box-shadow: 1px 1px 4px #060a11;
+  transition: background 0.5s ease-in-out; }
+
+/*ARROWS BASE*/
+#timeline div::before {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  width: 0;
+  height: 0;
+  border-style: solid; }
+
+/*RIGHT SIDE ARROWS*/
+#timeline ul li:nth-child(odd) div:before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #ffbc00 transparent transparent; }
+
+/*LEFT SIDE ARROWS*/
+#timeline ul li:nth-child(even) div:before {
+  right: -15px;
+  border-width: 8px 0px 8px 16px;
+  border-color: transparent transparent transparent #ffbc00; }
+
+/*SHOW BOXES*/
+#timeline ul li.show div {
+  transform: none;
+  visibility: visible;
+  opacity: 1; }
+
+#timeline ul li.show::after {
+  background: #333; 
+  border: 2px solid #ffbc00;
+}
+  
+
+@media (max-width: 900px) {
+  #timeline ul li div {
+    width: 250px; }
+  #timeline ul li:nth-child(even) div {
+    left: -284px; } }
+
+@media (max-width: 600px) {
+  #timeline ul li {
+    margin-left: 20px; }
+  #timeline ul li div {
+    width: calc(100vw - 90px); }
+  #timeline ul li:nth-child(even) div {
+    left: 40px; }
+  #timeline ul li:nth-child(odd) div:before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent var(--secondary-color) transparent transparent; 
+  } 
+}
+
+
+
+@media(max-width: 891px){
+ 
+    /*RIGHT SIDE ARROWS*/
+#timeline ul li:nth-child(odd) div:before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #ffbc00 transparent transparent; }
+
+/*LEFT SIDE ARROWS*/
+#timeline ul li:nth-child(even) div:before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #ffbc00 transparent transparent; }
+  }
+  
+   
+    @media (max-width: 900px) {
+
+      #main-nav{
+       
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 24px;
+      }
+      .container{
+        width: 100%;
+        margin-top: 20px;
+      }
+
+      #logo {
+        width: 180px;
+        height: auto;
+        z-index: 1;
+        margin-top: 20px;
+        margin: 0; }
+    
+      #contact-c {
+        height: 120px;
+        font-size: 30px;
+        padding-top: 50px; } 
+      
+        .hamburger{
+          display: block;
+          margin-top: 20px;
+          margin-left: 40px;
+        }
+        .hamburger.active .bar:nth-child(2){
+          opacity: 0;
+        }
+        .hamburger.active .bar:nth-child(1){
+          transform: translateY(8px) rotate(45deg);
+        }
+        .hamburger.active .bar:nth-child(3){
+          transform: translateY(-8px) rotate(-45deg);
+        }
+        .nav-menu{
+          position: fixed;
+          right: -100%;
+          top: 10%;
+          gap: 0;
+          flex-direction: column;
+          background-color: #262626;
+          width: 100%;
+          text-align: center;
+          transition: 0.5s;
+          opacity: 1;
+          border-bottom: 1px #555 solid;
+          z-index: 1;
+          opacity: 0.9;
+          
+    
+        }
+        .nav-item{
+          margin:16px 0; 
+          border-bottom: 2px rgb(56, 56, 56) solid;
+          width: 80%;
+       }
+      
+        .nav-menu.active{
+          right: 85px;
+          margin-top: -20px;
+          
+        }
+        
+        h1{
+    text-align: start; 
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    margin-top: 1rem; }
+
+    p.lead{
+      font-size: 0.9rem;
+      text-align: left;
+      margin-bottom: 0;
+    }
+    
+  }
+     
+    
+ 

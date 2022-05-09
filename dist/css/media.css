@@ -1,0 +1,54 @@
+@media (max-width: 900px) {
+
+  #logo {
+    width: 180px;
+    height: auto;
+    z-index: 1;
+    margin-top: 20px; }
+
+  #contact-c {
+    height: 120px;
+    font-size: 30px;
+    padding-top: 50px; } 
+  
+    .hamburger{
+      display: block;
+      margin-top: 40px;
+    }
+    .hamburger.active .bar:nth-child(2){
+      opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+      transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+      transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+      position: fixed;
+      right: -100%;
+      top: 11.5%;
+      gap: 0;
+      flex-direction: column;
+      background-color: #262626;
+      width: 100%;
+      text-align: center;
+      transition: 0.5s;
+      opacity: 0.8;
+      border-bottom: 1px #555 solid;
+
+    }
+    .nav-item{
+      margin:16px 0; 
+      border-bottom: 2px rgb(56, 56, 56) solid;
+      width: 80%;
+     
+    }
+  
+    .nav-menu.active{
+      right: 0;
+      
+    }
+  }
+
+    
