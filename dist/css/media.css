@@ -1,10 +1,10 @@
-@media (max-width: 900px) {
+@media (max-width: 920px) {
 
   #logo {
     width: 180px;
     height: auto;
     z-index: 1;
-    margin-top: 20px; }
+    margin-top:20px; }
 
   #contact-c {
     height: 120px;
@@ -40,11 +40,10 @@
 
     }
     .nav-item{
-      margin:16px 0; 
-      border-bottom: 2px rgb(56, 56, 56) solid;
+      margin-top: 10px;
+      border-bottom: 2px rgb(124, 124, 124) solid;
+      padding-bottom: 10px;
       width: 80%;
-      padding: 1rem;
-      padding-bottom: 3rem; 
     }
 
     .nav-menu.active{

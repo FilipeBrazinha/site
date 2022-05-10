@@ -193,13 +193,13 @@ h1 {
 }
   
 
-@media (max-width: 900px) {
+@media (max-width: 920px) {
   #timeline ul li div {
     width: 250px; }
   #timeline ul li:nth-child(even) div {
     left: -284px; } }
 
-@media (max-width: 600px) {
+@media (max-width: 920px) {
   #timeline ul li {
     margin-left: 20px; }
   #timeline ul li div {
@@ -215,7 +215,7 @@ h1 {
 
 
 
-@media(max-width: 891px){
+@media(max-width: 920px){
  
     /*RIGHT SIDE ARROWS*/
 #timeline ul li:nth-child(odd) div:before {
@@ -231,7 +231,7 @@ h1 {
   }
   
    
-    @media (max-width: 900px) {
+    @media (max-width: 920px) {
 
       #main-nav{
        
@@ -241,14 +241,15 @@ h1 {
         padding: 0 24px;
       }
       .container {
-        width: 90%; }
+        width: 100%; }
+
 
       #logo {
         width: 180px;
         height: auto;
         z-index: 1;
         margin-top: 20px;
-        margin: 0; }
+         }
     
       #contact-c {
         height: 120px;
@@ -272,7 +273,7 @@ h1 {
         .nav-menu{
           position: fixed;
           right: -100%;
-          top: 10%;
+          top: 50px;
           gap: 0;
           flex-direction: column;
           background-color: #262626;
@@ -280,23 +281,25 @@ h1 {
           text-align: center;
           transition: 0.5s;
           opacity: 1;
-          border-bottom: 1px #555 solid;
+          border-bottom: 1px #ffbc00 solid;
+
           z-index: 1;
           opacity: 0.9;
           
     
         }
         .nav-item{
-          margin:16px 0; 
-          border-bottom: 2px rgb(56, 56, 56) solid;
+          margin-top: 10px;
+          border-bottom: 2px rgb(124, 124, 124) solid;
+          padding-bottom: 10px;
           width: 80%;
-          padding: 1rem;
-          padding-bottom: 3rem; 
-       }
+        }
+
+       
       
         .nav-menu.active{
-          right: 85px;
-          margin-top: -20px;
+          right: 0px;
+          margin-top: 80px;
           
         }
         
@@ -312,6 +315,16 @@ h1 {
       margin-bottom: 0;
       
     }
+
+    /*RIGHT SIDE*/
+#timeline ul li:nth-child(odd) div {
+  
+  transform: none; }
+
+/*Left SIDE*/
+#timeline ul li:nth-child(even) div {
+  
+  transform: none; }
     
   }
      
