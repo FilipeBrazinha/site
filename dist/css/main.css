@@ -388,7 +388,8 @@ h2.interests {
     margin-top: 1rem; }
   p.lead {
     padding: 0;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+   }
   #contact-a button[type="submit"] {
     margin-top: 0px; }
   h2.interests {
@@ -446,4 +447,7 @@ h2.interests {
     width: 220px;
     height: auto;
     z-index: 1;
-    margin-top: 20px; } }
+    margin-top: 20px; } 
+
+  
+  }

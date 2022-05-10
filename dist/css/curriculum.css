@@ -90,25 +90,13 @@ h1{
     align-items: center;
     color: #ffbc00;
   }
-  
- 
-  
- 
-  
-  
   a.icones{
     border-bottom: none;
     transition: none;
     color: #fff;
-  
   }
-
- 
   
  /*MAIN NAV*/
- 
-  
-
 
 h1 {
   font-size: 2.3rem; }
@@ -252,10 +240,8 @@ h1 {
         align-items: center;
         padding: 0 24px;
       }
-      .container{
-        width: 100%;
-        margin-top: 20px;
-      }
+      .container {
+        width: 90%; }
 
       #logo {
         width: 180px;
@@ -304,6 +290,8 @@ h1 {
           margin:16px 0; 
           border-bottom: 2px rgb(56, 56, 56) solid;
           width: 80%;
+          padding: 1rem;
+          padding-bottom: 3rem; 
        }
       
         .nav-menu.active{
@@ -322,6 +310,7 @@ h1 {
       font-size: 0.9rem;
       text-align: left;
       margin-bottom: 0;
+      
     }
     
   }
