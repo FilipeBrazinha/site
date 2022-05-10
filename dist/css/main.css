@@ -262,10 +262,10 @@ h2.interests {
 
 #contact-c {
   background: #ffbc00;
-  height: 100px;
+  height: 80px;
   text-align: center;
   font-size: 2.5rem;
-  padding-top: 30px; }
+  padding-top: 0px; }
 
 /*FOOTER*/
 #main-footer {
@@ -307,10 +307,10 @@ h2.interests {
     z-index: 1;
     margin-top: 5px; }
  
-  #contact-c {
+  #contact-c h1 {
     height: 120px;
     font-size: 30px;
-    padding-top: 50px; } }
+    padding-top: 10px; } }
 
 @media (max-width: 550px) {
  
@@ -434,7 +434,7 @@ h2.interests {
     font-size: 2rem;
     line-height: 1.2;
     margin-top: 5px; } }
-
+/*
 @media (max-height: 330px) {
   #header-home .header-content {
     padding-top: 1rem; }
@@ -450,4 +450,4 @@ h2.interests {
     margin-top: 20px; } 
 
   
-  }
+  }*/
