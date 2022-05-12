@@ -107,14 +107,17 @@ h6 {
   margin-top: 10px; }
 
 .btn-light {
-  color: #333;
+  color: rgb(255, 255, 255);
   text-shadow: none;
-  background-color: #fff;
-  border: 2px solid #ffbc00;
+  background-color: rgb(102, 102, 102);
+  /*border: 2px solid #ffffff;*/
   padding: 1rem;
-  margin-left: 1.5rem;
-  opacity: 0.7; }
+  margin-left: 10px;
+  opacity: 1; }
   
+  #btnfull.btn-light{
+    display: none;
+  }
 
 a.icones {
   border-bottom: none;
@@ -243,7 +246,7 @@ h2.interests {
 
 #contact-a button[type="submit"] {
   width: 50%;
-  margin-bottom: 10px;
+  margin-bottom: 60px;
   margin-top: 20px; }
 
 #contact-b .contact-info {
@@ -324,14 +327,25 @@ h2.interests {
   .lead {
     font-size: 0.9rem;
     margin-top: 5px; }
-  .btn-light {
-    color: #333;
+  #btnfull.btn-light {
+    display: flex;
+    color: #fff;
     text-shadow: none;
-    background-color: #fff;
-    border: 2px solid #ffbc00;
+    background-color: rgb(78, 78, 78);
+    /*border: 2px solid #ffffff;*/
     font-size: 1rem;
+    margin: 4px;
+    margin-left: 0;
+    margin-top: 45px;
     padding: 5px;
-    opacity: 0.7; }
+    opacity: 1; }
+
+    #btnmedia.btn-light{
+      display: none;
+    }
+
+    
+
   h2.section-title {
     font-size: 1rem;
     margin-bottom: 5px; }
