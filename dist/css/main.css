@@ -92,6 +92,19 @@ input[class^="btn-"]:hover {
 h2, h3, h4 {
   text-transform: uppercase; }
 
+h3.textcarlos{
+  margin-bottom: 0px;
+  color: #ffbc00;
+  text-shadow: none;
+  text-decoration: underline #ffbc00;
+}
+
+p.textcarlos{
+  margin-bottom: 40px;
+  margin-top: 10px;
+
+}
+
 img {
   width: 100%; }
 
@@ -148,6 +161,19 @@ a.icones {
   display: grid;
   grid-template-areas: "bioimage bio bio";
   grid-gap: 1.2rem; }
+
+  #about-b .about-info1 {
+    display: grid;
+    grid-template-areas: 
+    "bioimage bio bio",
+    "bioimage bio bio";
+    grid-gap: 1.2rem; }
+
+   img.site-image{
+     margin-top: 10px;
+     justify-self: center;
+   } 
+   
 
 h2.section-title {
   color: #333;
@@ -273,7 +299,20 @@ h2.interests {
 #main-footer {
   background: #333;
   color: #fff;
-  height: 5rem; }
+  height: 5rem; 
+}
+#main-footer-p{
+margin-top: 10px;
+background: #333;
+color: #fff;
+}
+
+.footer-p-content {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  align-items: center; }
+
 
 .footer-content {
   display: flex;
