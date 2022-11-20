@@ -8,9 +8,13 @@
   padding: 0;
   box-sizing: border-box; }
 
+a.logo{
+   border-bottom: none;
+ } 
+
 body {
   font-family: 'Dosis', sans-serif;
-  background: url("../img/showcase1.jpg") no-repeat fixed center/cover;
+  background: url("../img/showcase.jpg") no-repeat fixed center/cover;
   color: white;
   overflow-x: hidden;
   padding-bottom: 50px; }

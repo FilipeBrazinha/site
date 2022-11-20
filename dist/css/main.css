@@ -123,7 +123,7 @@ h6 {
   color: rgb(255, 255, 255);
   text-shadow: none;
   background-color: rgb(102, 102, 102);
-  border: 2px solid #ffffff;
+  border: 2px solid #ffbc00;
   padding: 1rem;
   margin-left: 10px;
   opacity: 1; }
@@ -132,13 +132,17 @@ h6 {
     display: none;
   }
 
+ a.logo{
+   border-bottom: none;
+ } 
+
 a.icones {
   border-bottom: none;
   transition: none;
   color: #fff; }
 
 #header-home {
-  background: url("../img/showcase1.jpg") no-repeat fixed center/cover;
+  background: url("../img/showcase.jpg") no-repeat fixed center/cover;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
@@ -153,7 +157,7 @@ a.icones {
     text-shadow: 2px 2px black; }
 
 #header-inner {
-  background: url("../img/showcase1.jpg") no-repeat 90% 60%/cover;
+  background: url("../img/showcase.jpg") no-repeat 90% 60%/cover;
   height: 8.5rem;
   border-bottom: 3px solid #ffbc00; }
 
